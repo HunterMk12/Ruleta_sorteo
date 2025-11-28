@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ruleta Magica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="iniciarRuleta">
+
+<div class="contenedor">
+
+  <div id="lateral">
+    <h2>Números</h2>
+    <input id="numeroInput" placeholder="4 dígitos">
+    <button onclick="agregarNumero()">Agregar</button>
+
+    <div id="mensaje"></div>
+
+    <ul id="listaNumeros"></ul>
+  </div>
+  <div>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <br>
+    <button id="iniciar">Elegir Ganador</button>
+  </div>
+
+</div>
+<script src="ruleta2.js"></script>
+</body>
+</html>
