@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    display: flex;
+    gap: 20px;
+}
+
+#lateral {
+    width: 35%;
+}
+
+#lateral h2 {
+    text-align: center;
+}
+#listaNumeros {
+    list-style: none;
+    padding: 0;
+
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#listaNumeros li {
+    background: #eee;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#canvas {
+    border-radius: 50%;
+    background: #ddd;
+}
+
+#mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+}
